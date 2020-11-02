@@ -249,6 +249,10 @@ footer a{
 	height: auto;
 }
 
+.showcase-form{
+	justify-self:center;
+}
+
 .showcase-text{
 	text-align: center;
 }
