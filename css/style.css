@@ -293,7 +293,7 @@ footer a{
 }
 
 .features-head .head-text .lead{
-	font-size: 20px;
+	font-size: 1rem;
 }
 
 
@@ -306,6 +306,15 @@ footer a{
 .features-sub-head img{
 	width: 300px;
 	justify-self:flex-end;
+}
+
+.features-sub-head h1{
+	font-size: 35px;
+	padding: 1rem 0;
+}
+
+.features-sub-head p{
+	font-size: 1rem;
 }
 
 
