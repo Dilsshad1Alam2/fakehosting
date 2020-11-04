@@ -326,10 +326,26 @@ footer a{
   grid-column: 1 / span 2;
 }
 
+/*docs*/
 
+.docshead img{
+	width: 200px;
+	justify-self:flex-end;
 
+}
 
+.docshead h1{
+	font-size: 4rem;
+}
 
+.docshead p{
+	font-size: 20px;
+}
+
+.docs-main .grid{
+	grid-template-columns: 1fr 2fr;
+	align-items:flex-start;
+}
 
 
 
@@ -401,6 +417,14 @@ footer a{
 	padding: 10px 30px;
 }
 
+.alert-success{
+	background-color: #5cb85c;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+}
+
+
 /*Margins and Padding*/
 
 .my-1{
@@ -440,6 +464,11 @@ footer a{
 .px-1{
 	padding: 0 1rem;
 }
+
+.pxy-2{
+	padding:2rem;
+}
+
 .p-3{
 	padding: 3rem 0;
 }
@@ -448,8 +477,17 @@ footer a{
 	padding: 5rem 0;
 }
 
+.alert-margin{
+	margin:0 10px;
+}
+
+.text-margin{
+	margin: 1rem 0;
+}
+
 .bg-primary{
-	background-color: var(--primary-color)
+	background-color: var(--primary-color);
+	color:white;
 }
 
 .bg-light, .bg-light-btn{
