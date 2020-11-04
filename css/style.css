@@ -501,5 +501,16 @@ footer a{
 }
 
 
+.no-twitter{
+	min-height: 100vh;
+	background-color: var(-bg-light);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+
+}
+
 
 
