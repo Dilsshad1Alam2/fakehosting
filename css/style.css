@@ -239,10 +239,15 @@ footer a{
   .showcase .grid,
   .stats .grid,
   .cli .grid,
-  .cloud .grid{
+  .cloud .grid,
+  .features-sub-head .grid,
+  .features-head .grid
+   {
   	grid-template-columns: 1fr;
   	grid-template-rows: 1fr;
 }
+
+
 
 	.cli .grid > *:first-child{
 	grid-column: 1 ;
